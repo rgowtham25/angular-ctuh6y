@@ -1,0 +1,23 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 8px;
+  font-size: 15px;
+  text-align: left;
+}
+.example-small-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: 500;
+  width: 500;
+}
